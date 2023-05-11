@@ -1,0 +1,87 @@
+/*css for all pages*/
+
+/*************************************BASICS****************************************/
+* {
+    margin: 0;
+    padding: 0;
+	font-family: "Trebuchet MS", "Arial", "sans-serif";
+}
+
+body {
+	background-image:url("../images/img2.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+	font-family: Lucida, Arial, sans-serif;
+}
+
+/*************************************header****************************************/
+header {
+    background-color: rgb(42, 42, 42, 1);
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-left: 40px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+	font-style: italic;
+    margin-right: 50px;
+}
+
+header nav img {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+/*************************************logo****************************************/
+
+.logo_bkg {
+	background: linear-gradient(0.25turn, rgba(2, 17, 2, 0), rgba(2, 17, 2, 0.9), rgba(2, 17, 2, 0.9), rgba(2, 17, 2, 0));
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.logo_size {
+	width: 930px;
+	height: 145px;
+	padding: 10px;
+}
+
+/*************************************main****************************************/
+
+.main_bkg {
+	background-image: linear-gradient(rgba(223, 223, 223, 0.5), rgba(192, 223, 182, 0.5)),
+					  url("../images/img4.jpg");
+	min-height: 1000px;
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
+	border: 4mm ridge rgb(20, 58, 84, 1);
+}
+
+/*************************************others****************************************/

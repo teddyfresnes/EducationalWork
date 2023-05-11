@@ -1,0 +1,83 @@
+h1 {
+	font-family: "Impact";
+	color: white;
+	font-size: 240%;
+}
+
+h2 {
+	color: #FF0000;
+}
+
+table, td, th{
+	border: solid;
+	border-collapse: separate;
+	text-align: center;
+	margin: auto;
+	padding: 3px;
+}
+
+a {
+    color: inherit;  
+}
+
+#author{
+	color: orange;
+	font-family: "Comic Sans Ms";
+}
+
+.titre {
+    margin-left: -22px;
+    margin-right: -22px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	border-left: 3px;
+	border-left: 4mm ridge rgb(20, 58, 84, .6);
+	border-right: 4mm ridge rgb(20, 58, 84, .6);
+    background: #303236;
+}
+
+.firstdiv {
+	width: 80%;
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: linear-gradient(rgba(209, 206, 224, 0.8), rgba(255, 255, 255, 0.8)),
+					  url("../images/img4.jpg");
+	color: #14121f;
+	border: thick double #32a1ce;
+	margin: auto
+}
+
+.global {
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.leftdiv {
+	float: left;
+	width: 500px;
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 30px;
+	background-image: linear-gradient(rgba(209, 206, 224, 0.8), rgba(255, 255, 255, 0.8)),
+					  url("../images/img4.jpg");
+	color: #14121f;
+	border: thick double #32a1ce;
+}
+
+.rightdiv {
+	margin-left: 500px;
+	width: 200x;
+	min-height: 500px;
+	padding-top: 40px;
+}
+
+.blue {
+	color: blue;
+}
+
+.italic {
+	font-style: italic;
+}
